@@ -2,25 +2,31 @@
   "schemaVersion": 1,
   "id": "infernitemod",
   "version": "${version}",
-
   "name": "Infernite",
-  "description": "",
-  "authors": [],
-  "contact": {},
-
+  "description": "This is the Infernite Mod. Infernite is an upgrade to Netherite, infusing more of the nether into the items.",
+  "authors": [
+    "BrodieBroadcasts"
+  ],
+  "contact": {
+    "repo": "https://github.com/flippycereal/Infernite"
+  },
   "license": "unlicense",
   "icon": "assets/infernitemod/icon.png",
-
   "environment": "*",
-  "entrypoints": {},
-
-      "mixins": [
-        "infernitemod.mixins.json"
-      ],
-
+  "entrypoints": {
+    "client": [
+      "net.flippycereal.infernitemod.client.InferniteClient"
+    ],
+    "main": [
+      "net.flippycereal.infernitemod.Infernite"
+    ]
+  },
+  "mixins": [
+    "infernitemod.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
-        "fabric": "*",
+    "fabric": "*",
     "minecraft": "${minecraft_version}"
   }
 }
