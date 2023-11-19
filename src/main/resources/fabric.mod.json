@@ -3,7 +3,7 @@
   "id": "infernitemod",
   "version": "${version}",
   "name": "Infernite",
-  "description": "This is the Infernite Mod. Infernite is an upgrade to Netherite, infusing more of the nether into the items.",
+  "description": "This mod adds an upgrade to Netherite to infuse it with more of the power of the Nether",
   "authors": [
     "BrodieBroadcasts"
   ],
@@ -19,6 +19,12 @@
     ],
     "main": [
       "net.flippycereal.infernitemod.Infernite"
+    ],
+    "fabric-datagen": [
+      "net.flippycereal.infernitemod.InferniteDatagen"
+    ],
+    "rei_client": [
+      "net.flippycereal.infernitemod.compat.InferniteREIPlugin"
     ]
   },
   "mixins": [

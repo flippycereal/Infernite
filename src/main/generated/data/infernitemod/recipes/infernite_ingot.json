@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:magma_cream"
+  },
+  "base": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "item": "infernitemod:infernite_ingot"
+  },
+  "template": {
+    "item": "minecraft:magma_block"
+  }
+}
